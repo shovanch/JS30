@@ -1,2 +1,1 @@
-# JS30
-Projects for Javascript30
+## Notes from this lesson
