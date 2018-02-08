@@ -62,6 +62,10 @@
       background:black;
       position: absolute;
       top:50%;
+      transform-origin: 100%; /* Along the x-axis 0% -> fullleft, 50% (default) -> in middle , 100% -> fullright */
+      transform: rotate(90deg);  /*Move the hand position at 12 by default*/
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.02, 2.07, 0.59, 1.15);
     }
 
   </style>
