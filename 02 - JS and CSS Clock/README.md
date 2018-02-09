@@ -1,1 +1,1 @@
-## Notes from this lesson
+## Notes from Lesson 2
