@@ -4,6 +4,8 @@
 
 * **[JS Drum kit](https://shovanch.com/JS30/01%20-%20JS%20Drum%20Kit/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/01%20-%20JS%20Drum%20Kit/README.md)_**
 
-  Covers data-attributes, how to select elements with data-attributes, using audio element and manipulating it with various methods in JS, transition end event, how to add eventlistener to a nodelist of elements.
+  Lessons: Data-attributes, how to select elements with data-attributes, using audio element and manipulating it with various methods in JS, transition end event, how to add eventlistener to a nodelist of elements.
 
-- **[JS and CSS clock]()** → **_[Notes]()_**
+* **[JS and CSS clock](https://shovanch.com/JS30/02%20-%20JS%20and%20CSS%20Clock/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/02%20-%20JS%20and%20CSS%20Clock/README.md)_**
+
+  Lessons: Manipulating the CSS transform properties based on calculated JS variables, executing a function continuosly after a set period of time using `setInterval()` method, Using the `Date()` object, transform-origin property.
