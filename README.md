@@ -20,7 +20,7 @@
 
 * **[Flex Panel Gallery](https://shovanch.com/JS30/05%20-%20Flex%20Panel%20Gallery/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/05%20-%20Flex%20Panel%20Gallery/README.md)_**
 
-  **_Lessons:_**
+  **_Lessons:_** Moving element in and out view with translate property. Triggering an event after a transition event has finished its work.
 
 * **[Fetch API type ahead](https://shovanch.com/JS30/06%20-%20Type%20Ahead/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/06%20-%20Type%20Ahead/README.md)_**
 
@@ -29,3 +29,11 @@
 * **[Working with Array methods 2](https://shovanch.com/JS30/07%20-%20Array%20Cardio%20Day%202/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/07%20-%20Array%20Cardio%20Day%202/README.md)_**
 
   **_Lessons:_**
+
+* **[Fun with HTML5 Canvas](https://shovanch.com/JS30/08%20-%20Fun%20with%20HTML5%20Canvas/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/08%20-%20Fun%20with%20HTML5%20Canvas/README.md)_**
+
+  **_Lessons:_**
+
+* **[Useful Devtools tricks](https://shovanch.com/JS30/09%20-%20Dev%20Tools%20Domination/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/09%20-%20Dev%20Tools%20Domination/README.md)_**
+
+**_Lessons:_**
