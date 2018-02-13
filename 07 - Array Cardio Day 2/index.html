@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Array Cardio 💪💪</title>
 </head>
+
 <body>
-  <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
+  <p>
+    <em>Psst: have a look at the JavaScript Console</em> 💁</p>
   <script>
     // ## Array Cardio Day 2
 
@@ -26,16 +29,50 @@
 
     // Some and Every Checks
     // Array.prototype.some() // is at least one person 19 or older?
+    /* const isDriveAge = people.some(function (person) {
+      const currentYear = (new Date()).getFullYear();
+      if (currentYear - person.year >= 18) {
+        return true;
+      }
+    }); */
+
+    // Using ES6
+    const isDriveAge = people.some(person => {
+      const currentYear = (new Date()).getFullYear();
+
+      return (currentYear - person.year >= 18);
+    })
+    console.log({ isDriveAge }); // true
+
     // Array.prototype.every() // is everyone 19 or older?
+    const allDriveAge = people.every(person => {
+      const currentYear = (new Date()).getFullYear();
+      return (currentYear - person.year >= 18);
+    });
+    console.log(allDriveAge); // false
+
 
     // Array.prototype.find()
     // Find is like filter, but instead returns just the one you are looking for
     // find the comment with the ID of 823423
+    const search = comments.find(comment => comment.id === 823423);
+    console.log(search);
 
     // Array.prototype.findIndex()
     // Find the comment with this ID
     // delete the comment with the ID of 823423
+    const index = comments.findIndex(comment => comment.id === 823423);
 
+    comments.splice(index, 1);
+
+    // Another way is to create a new Array minus the index item
+    const newComments = [
+      ...comments.slice(0, index),
+      ...comments.slice(index + 1)
+    ];
+
+    console.table(newComments);
   </script>
 </body>
+
 </html>

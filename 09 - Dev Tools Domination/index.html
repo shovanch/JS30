@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Console Tricks!</title>
 </head>
+
 <body>
 
   <p onClick="makeGreen()">×BREAK×DOWN×</p>
@@ -18,29 +20,60 @@
     }
 
     // Regular
+    console.log('Hello World');
 
     // Interpolated
+    console.log('Hello, I am %s awesome', '😎');
 
     // Styled
+    // console.log('%c It is quite cool', 'font-size: 30px; color: orangered');
 
     // warning!
+    console.warn('ERROR!! Something is wrong');
 
     // Error :|
+    console.error('Oh!! SHit');
 
     // Info
+    console.info('New Delhi is capital of India');
 
     // Testing
+    console.assert(5 % 2 === 2, 'This is wrong');
 
     // clearing
+    console.clear();
 
     // Viewing DOM Elements
+    const p = document.querySelector('p');
+    console.dir(p);
+
 
     // Grouping together
+    dogs.forEach(dog => {
+      console.group(`${dog.name}`);
+      console.log(`This is ${dog.name}.`);
+      console.log(`He is ${dog.age} years old`);
+      console.groupEnd(`${dog.name}`);
+    })
 
     // counting
+    console.count('Shovan');
+    console.count('Shovan');
+    console.count('Shovan');
+    console.count('Dev');
+    console.count('Shovan');
+
 
     // timing
+    console.time('Get data');
+    fetch('https://api.github.com/users/shovanch')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('Get data');
+        console.log(data);
+      })
 
   </script>
 </body>
+
 </html>
