@@ -21,6 +21,7 @@
 
     const cities = [];
 
+    // Fetch API call
     fetch(endpoint)
       .then(blob => blob.json())  //Convert the returned blob of data into json
       .then(data => cities.push(...data)); // Now we can use the converted data

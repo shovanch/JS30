@@ -24,7 +24,7 @@
 
 * **[Fetch API type ahead](https://shovanch.com/JS30/06%20-%20Type%20Ahead/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/06%20-%20Type%20Ahead/README.md)_**
 
-  **_Lessons:_**
+  **_Lessons:_** How to use Fetch API, Using RegExp to filter user input value from an array of data,
 
 * **[Working with Array methods 2](https://shovanch.com/JS30/07%20-%20Array%20Cardio%20Day%202/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/07%20-%20Array%20Cardio%20Day%202/README.md)_**
 
