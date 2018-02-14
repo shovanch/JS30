@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Hold Shift to Check Multiple Checkboxes</title>
 </head>
+
 <body>
   <style>
-
     html {
       font-family: sans-serif;
-      background:#ffc600;
+      background: #ffc600;
     }
 
     .inbox {
-      max-width:400px;
-      margin:50px auto;
-      background:white;
-      border-radius:5px;
-      box-shadow:10px 10px 0 rgba(0,0,0,0.1);
+      max-width: 400px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
     }
 
     .item {
-      display:flex;
-      align-items:center;
+      display: flex;
+      align-items: center;
       border-bottom: 1px solid #F1F1F1;
     }
 
     .item:last-child {
-      border-bottom:0;
+      border-bottom: 0;
     }
 
 
-    input:checked + p {
-      background:#F9F9F9;
+    input:checked+p {
+      background: #F9F9F9;
       text-decoration: line-through;
     }
 
     input[type="checkbox"] {
-      margin:20px;
+      margin: 20px;
     }
 
     p {
-      margin:0;
-      padding:20px;
-      transition:background 0.2s;
-      flex:1;
-      font-family:'helvetica neue';
+      margin: 0;
+      padding: 20px;
+      transition: background 0.2s;
+      flex: 1;
+      font-family: 'helvetica neue';
       font-size: 20px;
       font-weight: 200;
       border-left: 1px solid #D1E2FF;
     }
-
-
   </style>
-   <!--
+  <!--
    The following is a common layout you would see in an email client.
 
    When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down, all the checkboxes inbetween those two checkboxes should be checked.
@@ -98,7 +97,39 @@
     </div>
   </div>
 
-<script>
-</script>
+  <script>
+    const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
+
+    // variable to hold the last checked input
+    let lastChecked;
+
+    function handleCheck(e) {
+      // See if the shiftkey is pressed down
+      // And it is being checked not unchecked
+      let inBetween = false;
+      if (e.shiftKey && this.checked) {
+        // loop over the checkboxes
+        checkboxes.forEach(checkbox => {
+          console.log(checkbox);
+          // if the checkbox is the current one or the last checked one, activate inbetween
+          if (checkbox === this || checkbox === lastChecked) {
+            inBetween = !inBetween;
+            console.log(inBetween);
+          }
+
+          // if the inbetween flag is true, set checbox to checked
+          if (inBetween) {
+            checkbox.checked = true;
+          }
+        })
+      }
+      lastChecked = this;
+    }
+
+    // add eventlistener to each item in the nodelist
+    checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
+
+  </script>
 </body>
+
 </html>
