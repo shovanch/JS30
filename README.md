@@ -32,7 +32,7 @@
 
 * **[8. Fun with HTML5 Canvas](https://shovanch.com/JS30/08%20-%20Fun%20with%20HTML5%20Canvas/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/08%20-%20Fun%20with%20HTML5%20Canvas/README.md)_**
 
-  **_Lessons:_**
+  **_Lessons:_** How to use HTML5 canvas, context and various methods related to it (`strokeStyle, lineTo, moveTo` etc...), How to draw on the canvas on mousedown, changing the color hue and linewidth with strokes
 
 * **[9. Useful Devtools tricks](https://shovanch.com/JS30/09%20-%20Dev%20Tools%20Domination/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/09%20-%20Dev%20Tools%20Domination/README.md)_**
 
