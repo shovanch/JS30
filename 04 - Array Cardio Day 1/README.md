@@ -1,4 +1,4 @@
-## Notes from this lesson 4
+## Notes from this lesson 04
 
 * `Array.prototype.filter()` : We can use filter method to take out items from an array that meets our condition and store them in a new array.
 * `Array.prototype.map()` : Map method works like a machine that takes input, process that input and gives output. Here the important distinction is that the resultant array will be of the **SAME LENGTH** as the input array. No item is taken out.
