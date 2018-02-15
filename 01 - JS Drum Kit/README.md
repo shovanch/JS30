@@ -1,4 +1,4 @@
-## Notes from Lesson 1
+## Notes from Lesson 01
 
 * We can use **custom data attributes** by prefixing 'data-' keyword before. We can use it hook two elements. Like styling using class and IDs.
 * Data attirbutes can selected in JS using attribute selector .

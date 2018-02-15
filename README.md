@@ -14,7 +14,7 @@
 
   **_Lessons:_** Using CSS variales, updating the variables using JS, mousemove event, accessing the CSS variables using documentElement property and setProperty method, dataset property
 
-* **[4. Working with Array methods](https://shovanch.com/JS30/04%20-%20Array%20Cardio%20Day%201/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/04%20-%20Array%20Cardio%20Day%201/README.md)_**
+* **[4. Working with Array methods 1](https://shovanch.com/JS30/04%20-%20Array%20Cardio%20Day%201/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/04%20-%20Array%20Cardio%20Day%201/README.md)_**
 
   **_Lessons:_** Using array.prototype methods => filter, sort, map, reduce. Changing a nodelist of items into an array using i) `Array.from()` ii) [..nodelist] spread operator
 
@@ -40,7 +40,7 @@
 
 * **[10. Hold shift and check multiple checkboxes](https://shovanch.com/JS30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/README.md)_**
 
-  **_Lessons:_**
+  **_Lessons:_** How to fire events only a certain key is pressed, using flag variables to set flip checkboxes
 
 * **[11. Custom Video Player](https://shovanch.com/JS30/11%20-%20Custom%20Video%20Player/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/11%20-%20Custom%20Video%20Player/README.md)_**
 

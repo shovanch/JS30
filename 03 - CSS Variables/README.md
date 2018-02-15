@@ -1,4 +1,4 @@
-## Notes from this lesson 3
+## Notes from Lesson 03
 
 * Difference between Sass and CSS native variables: Sass vars get defined in compile time, can't be updated later. Whereas CSS variables can updated using JS.
 * We can define the CSS variables like
