@@ -44,11 +44,11 @@
 
 * **[11. Custom Video Player](https://shovanch.com/JS30/11%20-%20Custom%20Video%20Player/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/11%20-%20Custom%20Video%20Player/README.md)_**
 
-  **_Lessons:_**
+  **_Lessons:_** Using HTML5 video element and its various methods and properties, using mousedown flag variable to implement drag and update functionality, updating progress bar with JS and `flex-basis` property,
 
 * **[12. Key Sequence Detection](https://shovanch.com/JS30/12%20-%20Key%20Sequence%20Detection/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/12%20-%20Key%20Sequence%20Detection/README.md)_**
 
-  **_Lessons:_**
+  **_Lessons:_** Getting key from keyup event and storing in an array, maintaining an array length using `.splice()`.
 
 * **[13. Slide in on scroll](https://shovanch.com/JS30/13%20-%20Slide%20in%20on%20Scroll/)** → **_[Notes](https://github.com/shovanch/JS30/blob/master/13%20-%20Slide%20in%20on%20Scroll/README.md)_**
 
